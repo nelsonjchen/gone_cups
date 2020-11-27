@@ -635,6 +635,17 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "pyzbar"
+version = "0.1.8"
+description = "Read one-dimensional barcodes and QR codes from Python 2 and 3."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+scripts = ["Pillow (>=3.2.0)"]
+
+[[package]]
 name = "pyzmq"
 version = "20.0.0"
 description = "Python bindings for 0MQ"
@@ -768,7 +779,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9.0"
-content-hash = "06d8c61cffd399138749caab5afd34d358cf32c912347e9c8170169586bdeb4b"
+content-hash = "0dc10283f3baaab205ec146b5ac0ebfe226a354d6e19489705640783226162ae"
 
 [metadata.files]
 appnope = [
@@ -1202,6 +1213,11 @@ pywinpty = [
     {file = "pywinpty-0.5.7-cp37-cp37m-win_amd64.whl", hash = "sha256:dd22c8efacf600730abe4a46c1388355ce0d4ab75dc79b15d23a7bd87bf05b48"},
     {file = "pywinpty-0.5.7-cp38-cp38-win_amd64.whl", hash = "sha256:8fc5019ff3efb4f13708bd3b5ad327589c1a554cb516d792527361525a7cb78c"},
     {file = "pywinpty-0.5.7.tar.gz", hash = "sha256:2d7e9c881638a72ffdca3f5417dd1563b60f603e1b43e5895674c2a1b01f95a0"},
+]
+pyzbar = [
+    {file = "pyzbar-0.1.8-py2.py3-none-any.whl", hash = "sha256:0e204b904e093e5e75aa85e0203bb0e02888105732a509b51f31cff400f34265"},
+    {file = "pyzbar-0.1.8-py2.py3-none-win32.whl", hash = "sha256:7d6c01d2c0a352fa994aa91b5540d1caeaeaac466656eb41468ca5df33be9f2e"},
+    {file = "pyzbar-0.1.8-py2.py3-none-win_amd64.whl", hash = "sha256:496249b546be70ec98c0ff0ad9151e73daaffff129266df86150a15dcd8dac4c"},
 ]
 pyzmq = [
     {file = "pyzmq-20.0.0-cp35-cp35m-macosx_10_9_intel.whl", hash = "sha256:523d542823cabb94065178090e05347bd204365f6e7cb260f0071c995d392fc2"},
