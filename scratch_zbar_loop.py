@@ -3,9 +3,6 @@ import timeit
 import cv2
 from pyzbar.pyzbar import decode
 
-from PIL import Image, ImageDraw
-
-
 camera = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 camera.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
 camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
