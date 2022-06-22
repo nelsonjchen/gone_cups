@@ -9,7 +9,7 @@ python = "^3.9.0"
 jupyter = "^1.0.0"
 opencv-python = "^4.4.0"
 # Workaround Windows bug https://developercommunity.visualstudio.com/content/problem/1207405/fmod-after-an-update-to-windows-2004-is-causing-a.html
-numpy = "1.19.3"
+numpy = "1.22.0"
 matplotlib = "^3.3.3"
 pyzbar = "^0.1.8"
 
